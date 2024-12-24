@@ -39,9 +39,10 @@
 
 ## Folder Structure
     financial_data_extraction/
-    ├── jsonl/ # Folder to store the extracted data in JSONL format.
+    ├── jsonl/ # Folder to store the extracted table data in JSONL format.
     ├── pdfs/ # Folder to store the PDF files for processing.
     ├── .gitignore
+    ├── pdf_summary.jsonl # Summary data extracted from respected PDF file
     ├── pdf_data.ipynb # Jupyter Notebook for processing PDF data.
     ├── README.md # Project documentation.
     └── requirements.txt # Project dependencies.
@@ -49,7 +50,9 @@
 ## Usage
 
 1. Place the PDF files you want to process in the pdfs/ folder.
-
 2. Open the pdf_data.ipynb file in Jupyter Notebook
 3. Run the notebook cells to process the PDF files and extract financial data.
 4. The processed data will be saved in the jsonl/ folder.
+
+## Output Location
+1. After proceed with usage steps, you will find pdf_summary.jsonl for summary and extracted_data.jsonl under jsonl folder for table extraction.
