@@ -12,7 +12,7 @@
 - [Folder Structure](#folder-structure)
 - [Usage](#usage)
 - [Output Location](#output-location)
-
+- [Reference](#references)
 
 ## Features
 - Extract financial data from PDF documents.
@@ -61,3 +61,13 @@
         1. summary.jsonl file will be created.
     2. pdf_data.ipynb which have 2 functions which creates table data and summary data.
         1. You can find pdf_summary.jsonl for summary and extracted_data.jsonl under jsonl folder for table extraction.
+2. Running Code
+    1. For ipynb file just run any cell and you will get output.
+    2. For .py file you need to set command from CLI
+        ```
+        - python file_name pdf_file_location
+        - e.g extract_data.py pdfs/3M_2015_10K.pdf
+        ```
+
+## References
+1. One can refer the output summary json from here - https://github.com/tejaspatel-atc/financial_data_extraction/blob/main/pdf_summary.jsonl
