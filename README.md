@@ -11,6 +11,7 @@
 - [Installation](#installation)
 - [Folder Structure](#folder-structure)
 - [Usage](#usage)
+- [Output Location](#output-location)
 
 
 ## Features
@@ -55,4 +56,8 @@
 4. The processed data will be saved in the jsonl/ folder.
 
 ## Output Location
-1. After proceed with usage steps, you will find pdf_summary.jsonl for summary and extracted_data.jsonl under jsonl folder for table extraction.
+1. There are two files 
+    1. extract_data.py which have script to generate all the combined data with table and summary.
+        1. summary.jsonl file will be created.
+    2. pdf_data.ipynb which have 2 functions which creates table data and summary data.
+        1. You can find pdf_summary.jsonl for summary and extracted_data.jsonl under jsonl folder for table extraction.
